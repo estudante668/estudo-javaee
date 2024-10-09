@@ -11,5 +11,7 @@
   <h1>Ola jsp</h1>
   <% out.println("Estudante novo"); %>
   <p>Date: <%=new Date()%></p>
+  <%!int cont=0;%>
+  <p>Visitas: <%=cont++%></p>
 </body>
 </html>
